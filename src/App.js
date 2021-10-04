@@ -5,35 +5,30 @@ import AboutMe from "./pages/AboutMe";
 import EducatorResources from "./pages/EducatorResources";
 import FAQ from "./pages/FAQ";
 import ParentResources from "./pages/ParentResources";
+import Nav from "./components/Nav";
+// import { ApolloClient, ApolloProvider } from "@apollo/client";
 // import { Link } from "react-router-dom";
 
 function App() {
   return (
     <Router>
-      {/* Home Page */}
-      <Route exact path="/">
-        <Home />
-      </Route>
-
-      {/* About Me Page */}
-      <Route exact path="/aboutme">
-        <AboutMe />
-      </Route>
-
-      {/* Parent Resources Page */}
-      <Route exact path="/parentresources">
-        <ParentResources />
-      </Route>
-
-      {/* Educator Resources Page */}
-      <Route exact path="/educatorresources">
-        <EducatorResources />
-      </Route>
-
-      {/* Educator Resources Page */}
-      <Route exact path="/faq">
-        <FAQ />
-      </Route>
+      <div>
+        <Nav />
+        <div>
+          {/* Define routes to render different page components at different paths */}
+          <Route exact path="/" component={Home} />
+          {/* Define a route that will take in variable data */}
+          <Route exact path="/aboutme" component={AboutMe} />
+          <Route
+            exact
+            path="/educatorresources"
+            component={EducatorResources}
+          />
+          <Route exact path="/parentresources" component={ParentResources} />
+          <Route exact path="/faq" component={FAQ} />
+        </div>
+        {/* <Footer /> */}
+      </div>
     </Router>
   );
 }
