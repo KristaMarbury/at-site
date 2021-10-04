@@ -47,9 +47,12 @@
   text-align: center;
 }
 
-/* .App {
-  text-align: center;
+.App {
+  background: url("./pages/images/atSiteBg1.jpeg") no-repeat;
+  background-size: cover;
 }
+
+/*
 
 .App-logo {
   height: 40vmin;
