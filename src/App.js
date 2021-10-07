@@ -8,6 +8,7 @@ import ParentResources from "./pages/ParentResources";
 import Nav from "./components/Nav";
 // import { ApolloClient, ApolloProvider } from "@apollo/client";
 // import { Link } from "react-router-dom";
+// import Typewriter from "typewriter-effect";
 
 function App() {
   return (
