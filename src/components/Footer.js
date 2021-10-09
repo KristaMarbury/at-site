@@ -1,49 +1,47 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import book from "./images1/nounbook.png";
 
 const Footer = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark homeNav">
-      <div className="container ml-4">
-        <Link to="/" className="navbar-brand">
-          Breeze Reading
-        </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navmenu">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <Link to="/aboutme" className="nav-link">
-                AboutMe
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/educatorresources" className="nav-link">
-                EducatorResources
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/parentresources" className="nav-link">
-                ParentResources
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/faq" className="nav-link">
-                FAQ
-              </Link>
-            </li>
+    <div class="container">
+      <footer class="row row-cols-5 py-5 my-5 border-top">
+        <div class="col">
+          <Link to="/">
+            <img
+              class="d-flex align-items-center mb-3 link-dark smalls"
+              src={book}
+              alt="breezereading homebutton"
+            />
+          </Link>
+          <p class="text-dark">2021</p>
+        </div>
+        <div class="col"> </div>
+        <div class="col">
+          <h5>About</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">Cool Things</li>
           </ul>
         </div>
-      </div>
-    </nav>
-    // return <footer className="w-100 mt-auto text-dark p-4"></footer>;
+        <div class="col"> </div>
+        <div class="col">
+          <h5>External Links</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">Exciting Things</li>
+          </ul>
+        </div>
+        <div class="col"> </div>
+        <div class="col">
+          <h5>Resources</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">New Things</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
   );
 };
 
 export default Footer;
+
+// class="d-flex align-items-center mb-3 link-dark text-decoration-none"   <svg class="bi me-2" width="40" height="32"></svg>

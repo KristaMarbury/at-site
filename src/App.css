@@ -55,8 +55,13 @@ body {
 }
 
 img {
-  width: 20rem;
+  width: 25rem;
   height: 20rem;
+}
+
+.smalls {
+  width: 3rem;
+  height: 3rem;
 }
 
 /* AboutMe-------------------------------------------------------------------------- */

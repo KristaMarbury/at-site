@@ -43,7 +43,25 @@ const About = () => {
         </div>
       </div>
       <div class="row mb-2">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"></div>
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Degrees</h3>
+            <strong class="d-inline-block mb-2 text-light">
+              <ul>
+                <li>
+                  Bachelor’s degree, English – University of Maryland, College
+                  Park
+                </li>
+                <li>Master’s degree, Teaching – John’s Hopkins University</li>
+                <li>
+                  Certified Academic Language Therapist (CALT) – Atlantic
+                  Seaboard Dyslexia Center (ASDEC) and Academic Therapy Language
+                  Association (ALTA)
+                </li>
+              </ul>
+            </strong>
+          </div>
+        </div>
       </div>
     </main>
   );

@@ -6,6 +6,7 @@ import EducatorResources from "./pages/EducatorResources";
 import FAQ from "./pages/FAQ";
 import ParentResources from "./pages/ParentResources";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 // import { ApolloClient, ApolloProvider } from "@apollo/client";
 // import { Link } from "react-router-dom";
 
@@ -27,7 +28,7 @@ function App() {
           <Route exact path="/parentresources" component={ParentResources} />
           <Route exact path="/faq" component={FAQ} />
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );

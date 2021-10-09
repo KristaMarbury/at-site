@@ -17,7 +17,7 @@ const Home = () => {
             onInit={(typewriter) => {
               typewriter
                 .typeString(
-                  "'Reading is a fundamental civil right, but for students with dyslexia and related learning difficulties, that right is jeopardized. Academic language therapy is transformative. It allows students to experience the satisfaction of reading and writing, meeting their academic potential, and, ultimately, achieving their dreams.' ~ Barbara Marbury, March 27th 2020"
+                  " As an academic therapist, I work with students to demystify the science of reading and spelling. Along the way, I help them build a robust vocabulary, strengthen their study skills, and develop an appreciation for language that will serve as a foundation for all other learning in life."
                 )
                 .pauseFor(3000)
                 .deleteAll()
