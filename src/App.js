@@ -1,14 +1,13 @@
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import AboutMe from "./pages/AboutMe";
+import About from "./pages/About";
 import EducatorResources from "./pages/EducatorResources";
 import FAQ from "./pages/FAQ";
 import ParentResources from "./pages/ParentResources";
 import Nav from "./components/Nav";
 // import { ApolloClient, ApolloProvider } from "@apollo/client";
 // import { Link } from "react-router-dom";
-// import Typewriter from "typewriter-effect";
 
 function App() {
   return (
@@ -19,7 +18,7 @@ function App() {
           {/* Define routes to render different page components at different paths */}
           <Route exact path="/" component={Home} />
           {/* Define a route that will take in variable data */}
-          <Route exact path="/aboutme" component={AboutMe} />
+          <Route exact path="/about" component={About} />
           <Route
             exact
             path="/educatorresources"
