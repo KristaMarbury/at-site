@@ -1,9 +1,10 @@
 :root {
-  --colorMain: rgb(153, 202, 155);
-  --colorSec: rgb(2, 65, 6);
-  --colorThi: rgb(180, 174, 119);
-  --colorFour: rgb(90, 124, 92);
+  --colorMain: rgb(98, 106, 148);
+  --colorSec: rgb(11, 17, 177);
+  --colorThi: rgb(158, 119, 180);
+  --colorFour: rgb(90, 109, 124);
   --colorFive: rgb(228, 224, 205);
+  --colorSix: rgb(224, 170, 98);
 }
 
 /* homepage-------------------------------------------------------------------------- */
@@ -47,10 +48,24 @@
   text-align: center;
 }
 
-.App {
-  background: url("./pages/images/atSiteBg1.jpeg") no-repeat;
-  background-size: cover;
+body {
+  background-color: var(--colorSix);
+  /* background: url("./pages/images/atSiteBg1.jpeg") no-repeat;
+  background-size: cover; */
 }
+
+img {
+  width: 20rem;
+  height: 20rem;
+}
+
+/* AboutMe-------------------------------------------------------------------------- */
+
+/* EducatorResources-------------------------------------------------------------------------- */
+
+/* ParentResources-------------------------------------------------------------------------- */
+
+/* FAQ-------------------------------------------------------------------------- */
 
 /*
 
