@@ -29,10 +29,10 @@ const Home = () => {
 
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
           {/* Be sure to make these buttons go to glowing reviews from Clients and ASDEC */}
-          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+          <button type="button" class="btn btn-light btn-lg px-4 gap-3">
             What Clients Say
           </button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+          <button type="button" class="btn btn-outline-light btn-lg px-4">
             What ASDEC Says
           </button>
         </div>

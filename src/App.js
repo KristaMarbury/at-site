@@ -18,7 +18,7 @@ function App() {
           {/* Define routes to render different page components at different paths */}
           <Route exact path="/" component={Home} />
           {/* Define a route that will take in variable data */}
-          <Route exact path="/about" component={About} />
+          <Route exact path="/aboutme" component={About} />
           <Route
             exact
             path="/educatorresources"

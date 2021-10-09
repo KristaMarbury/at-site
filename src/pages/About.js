@@ -27,12 +27,23 @@ const About = () => {
             many other students and would love to help your child and you!
           </p>
         </div>
-        <div class="row mb-2">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"></div>
+      </div>
+      <div class="row mb-2">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Here’s how I can help</h3>
+            <strong class="d-inline-block mb-2 text-light">
+              <ul>
+                <li>Online Academic Therapy</li>
+                <li>In-Person Academic Therapy</li>
+                <li>Grammar and Composition Vocabulary Building</li>
+              </ul>
+            </strong>
+          </div>
         </div>
-        <div class="row mb-2">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"></div>
-        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"></div>
       </div>
     </main>
   );
