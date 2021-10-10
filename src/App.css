@@ -65,13 +65,17 @@ img {
 }
 
 .afropic {
-  width: 30rem;
-  height: 51rem;
+  width: 27rem;
+  height: 65rem;
 }
 
 /* custom link color for pizazz */
 .linkcolor {
   color: rgba(58, 11, 105, 0.952);
+}
+
+.linkcolor1 {
+  color: rgba(4, 3, 5, 0.952);
 }
 
 /* AboutMe-------------------------------------------------------------------------- */

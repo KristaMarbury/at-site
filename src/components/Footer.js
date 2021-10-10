@@ -18,7 +18,9 @@ const Footer = () => {
         </div>
         <div class="col"> </div>
         <div class="col">
-          <h5>About</h5>
+          <Link to="/aboutme" class="linkcolor1">
+            <h5>About</h5>
+          </Link>
           <ul class="nav flex-column">
             <li class="nav-item mb-2">Cool Things</li>
           </ul>
@@ -27,7 +29,9 @@ const Footer = () => {
         <div class="col">
           <h5>External Links</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2">Exciting Things</li>
+            <Link to="https://asdec.org/" class="linkcolor1">
+              <li class="nav-item mb-2">ADEC website</li>
+            </Link>
           </ul>
         </div>
         <div class="col"> </div>
