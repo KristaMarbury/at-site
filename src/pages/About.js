@@ -35,8 +35,7 @@ const About = () => {
           </div>
           <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
             <img
-              className="afropic"
-              class="d-block mx-auto mb-4 img-responsive"
+              class="d-block mx-auto mb-4 img-responsive afropic"
               src={afro}
               alt="headshot of Barbara Marbury"
             />
