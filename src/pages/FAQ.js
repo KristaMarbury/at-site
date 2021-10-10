@@ -30,6 +30,7 @@ const FAQ = () => {
           />
         </div>
       </div>
+      <hr class="featurrette divider"></hr>
       <div class="row featurette">
         <div class="col-md-5">
           <img

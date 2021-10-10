@@ -38,7 +38,7 @@ const Footer = () => {
         <div class="col">
           <h5>Resources</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2">New Things</li>
+            <li class="nav-item mb-2">Contact Me Via Email</li>
           </ul>
         </div>
       </footer>
