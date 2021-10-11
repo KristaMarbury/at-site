@@ -29,9 +29,7 @@ const Footer = () => {
         <div class="col">
           <h5>External Links</h5>
           <ul class="nav flex-column">
-            <Link to="https://asdec.org/" class="linkcolor1">
-              <li class="nav-item mb-2">ADEC website</li>
-            </Link>
+            <li class="nav-item mb-2">Cool Things</li>
           </ul>
         </div>
         <div class="col"> </div>
@@ -39,6 +37,10 @@ const Footer = () => {
           <h5>Resources</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2">Contact Me Via Email</li>
+            {/* make this an external site */}
+            <a href="https://asdec.org/" class="linkcolor1">
+              <li class="nav-item mb-2">ASDEC</li>
+            </a>
           </ul>
         </div>
       </footer>

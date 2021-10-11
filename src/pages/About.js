@@ -10,6 +10,7 @@ const About = () => {
           <div class="col-sm-5 col-md-6">
             <h1 class="display-4 fst-italic">
               Barbara Marbury <br></br>
+              {/* make this text smaller than the name */}
               <span class="text-muted">
                 M.A.T., Certified Academic Language Therapist (CALT)
               </span>
@@ -33,6 +34,7 @@ const About = () => {
               students and would love to help your child and you!
             </p>
           </div>
+          {/* Make the photo more square and then let the text flow under it */}
           <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
             <img
               class="d-block mx-auto mb-4 img-responsive afropic"

@@ -9,6 +9,7 @@ const FAQ = () => {
     <main>
       <div class="row featurette">
         <div class="col-md-7">
+          {/* why does it go right up to the edge? */}
           <h2 class="featurrette-heading">What is dyslexia?</h2>
           <p class="lead">
             As defined by the International Dyslexia Association: “Dyslexia is a

@@ -23,6 +23,7 @@ const ParentResources = () => {
               a learning disorder that makes it very difficult to read, and
               write.
             </p>
+            {/* make this link go to a new page */}
             <a
               href="https://www.dys-add.com/dyslexia.html#anchorMyth"
               class="linkcolor"

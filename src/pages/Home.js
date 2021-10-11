@@ -32,9 +32,6 @@ const Home = () => {
           <button type="button" class="btn btn-light btn-lg px-4 gap-3">
             What Clients Say
           </button>
-          <button type="button" class="btn btn-outline-light btn-lg px-4">
-            What ASDEC Says
-          </button>
         </div>
       </section>
     </main>
