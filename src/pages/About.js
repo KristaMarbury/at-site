@@ -10,12 +10,14 @@ const About = () => {
           <div class="col-sm-5 col-md-6">
             <h1 class="display-4 fst-italic">
               Barbara Marbury <br></br>
-              {/* make this text smaller than the name */}
-              <span class="text-muted">
-                M.A.T., Certified Academic Language Therapist (CALT)
-              </span>
+              <h2>
+                <span class="text-muted">
+                  M.A.T., Certified Academic Language Therapist (CALT)
+                </span>
+              </h2>
             </h1>
-            <p class="lead my-3">
+
+            <p class="lead my-3 pull-left">
               Hello! I am a native Washingtonian and love the city life. My
               husband and I moved to Chicago in 2017 and quickly fell in love
               with life in the Windy City. Together, we have three daughters and
@@ -33,15 +35,13 @@ const About = () => {
               changed us as a family. We have gone on to help many other
               students and would love to help your child and you!
             </p>
-          </div>
-          {/* Make the photo more square and then let the text flow under it */}
-          <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
             <img
               class="d-block mx-auto mb-4 img-responsive afropic"
               src={afro}
               alt="headshot of Barbara Marbury"
             />
           </div>
+          {/* Make the photo more square and then let the text flow under it */}
         </div>
       </div>
       <div class="row mb-2">
