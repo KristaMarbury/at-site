@@ -39,6 +39,11 @@ const Nav = () => {
                 FAQ
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/whatclientssay" className="nav-link">
+                WhatClientsSay
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
