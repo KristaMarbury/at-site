@@ -27,8 +27,10 @@ const ParentResources = () => {
             <a
               href="https://www.dys-add.com/dyslexia.html#anchorMyth"
               class="linkcolor"
+              target="_blank"
+              rel="noreferrer noopener"
             >
-              https://www.dys-add.com/dyslexia.html#anchorMyth
+              Myths about Dyslexia
             </a>
           </div>
         </div>

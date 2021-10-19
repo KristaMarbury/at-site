@@ -1,6 +1,6 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import victor from "./images/victorhugo.jpeg";
+import victor from "./images/victorhugo.jpg";
 
 const WhatClientsSay = () => {
   return (

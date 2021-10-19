@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import WhatClientsSay from "./pages/WhatClientsSay";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import EducatorResources from "./pages/EducatorResources";
@@ -27,6 +28,7 @@ function App() {
           />
           <Route exact path="/parentresources" component={ParentResources} />
           <Route exact path="/faq" component={FAQ} />
+          <Route exact path="/whatclientssay" component={WhatClientsSay} />
         </div>
         <Footer />
       </div>

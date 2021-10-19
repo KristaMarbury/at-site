@@ -38,7 +38,12 @@ const Footer = () => {
           <ul class="nav flex-column">
             <li class="nav-item mb-2">Contact Me Via Email</li>
             {/* make this an external site */}
-            <a href="https://asdec.org/" class="linkcolor1">
+            <a
+              href="https://asdec.org/"
+              class="linkcolor1"
+              target="_blank"
+              rel="nonreferrer noopener"
+            >
               <li class="nav-item mb-2">ASDEC</li>
             </a>
           </ul>

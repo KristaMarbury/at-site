@@ -52,8 +52,10 @@ const FAQ = () => {
               <a
                 href="https://www.gse.harvard.edu/news/uk/18/02/brain-changing-power-conversation"
                 class="linkcolor"
+                target="_blank"
+                rel="noreferrer noopener"
               >
-                https://www.gse.harvard.edu/news/uk/18/02/brain-changing-power-conversation
+                The brain changing power of conversation.
               </a>
             </span>
           </p>
