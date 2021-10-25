@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/at-site/static/css/main.ba377c95.chunk.css",
-    "main.js": "/at-site/static/js/main.6e7a9880.chunk.js",
-    "main.js.map": "/at-site/static/js/main.6e7a9880.chunk.js.map",
-    "runtime-main.js": "/at-site/static/js/runtime-main.0480403b.js",
-    "runtime-main.js.map": "/at-site/static/js/runtime-main.0480403b.js.map",
-    "static/js/2.0be09fde.chunk.js": "/at-site/static/js/2.0be09fde.chunk.js",
-    "static/js/2.0be09fde.chunk.js.map": "/at-site/static/js/2.0be09fde.chunk.js.map",
-    "static/js/3.7f61e0c7.chunk.js": "/at-site/static/js/3.7f61e0c7.chunk.js",
-    "static/js/3.7f61e0c7.chunk.js.map": "/at-site/static/js/3.7f61e0c7.chunk.js.map",
+    "main.js": "/at-site/static/js/main.39293b8d.chunk.js",
+    "main.js.map": "/at-site/static/js/main.39293b8d.chunk.js.map",
+    "runtime-main.js": "/at-site/static/js/runtime-main.99c981d0.js",
+    "runtime-main.js.map": "/at-site/static/js/runtime-main.99c981d0.js.map",
+    "static/js/2.779340da.chunk.js": "/at-site/static/js/2.779340da.chunk.js",
+    "static/js/2.779340da.chunk.js.map": "/at-site/static/js/2.779340da.chunk.js.map",
+    "static/js/3.933950dc.chunk.js": "/at-site/static/js/3.933950dc.chunk.js",
+    "static/js/3.933950dc.chunk.js.map": "/at-site/static/js/3.933950dc.chunk.js.map",
     "index.html": "/at-site/index.html",
     "static/css/main.ba377c95.chunk.css.map": "/at-site/static/css/main.ba377c95.chunk.css.map",
-    "static/js/2.0be09fde.chunk.js.LICENSE.txt": "/at-site/static/js/2.0be09fde.chunk.js.LICENSE.txt",
+    "static/js/2.779340da.chunk.js.LICENSE.txt": "/at-site/static/js/2.779340da.chunk.js.LICENSE.txt",
     "static/media/DyslexiaKidPic.90c9a24c.png": "/at-site/static/media/DyslexiaKidPic.90c9a24c.png",
     "static/media/DyslexiaQuote.8b034f5c.jpeg": "/at-site/static/media/DyslexiaQuote.8b034f5c.jpeg",
     "static/media/momafro.59746bbc.jpeg": "/at-site/static/media/momafro.59746bbc.jpeg",
@@ -21,9 +21,9 @@
     "static/media/victorhugo.713de1c0.jpg": "/at-site/static/media/victorhugo.713de1c0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0480403b.js",
-    "static/js/2.0be09fde.chunk.js",
+    "static/js/runtime-main.99c981d0.js",
+    "static/js/2.779340da.chunk.js",
     "static/css/main.ba377c95.chunk.css",
-    "static/js/main.6e7a9880.chunk.js"
+    "static/js/main.39293b8d.chunk.js"
   ]
 }
