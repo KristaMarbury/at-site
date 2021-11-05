@@ -65,8 +65,17 @@ img {
 }
 
 .afropic {
-  width: 27rem;
-  height: 30rem;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.momglasses {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 25px;
+  padding: 20px;
 }
 
 /* custom link color for pizazz */

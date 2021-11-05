@@ -7,7 +7,14 @@ const About = () => {
     <main class="container">
       <div class="row">
         <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
-          <div class="col-sm-5 col-md-6">
+          <div>
+            <div class="col">
+              <img
+                class="d-block mx-auto mb-4 img-responsive afropic"
+                src={afro}
+                alt="headshot of Barbara Marbury"
+              />
+            </div>
             <h1 class="display-4 fst-italic">
               Barbara Marbury <br></br>
               {/* make this text smaller than the name */}
@@ -17,13 +24,6 @@ const About = () => {
                 </span>
               </h2>
             </h1>
-          </div>
-          <div class="col">
-            <img
-              class="d-block mx-auto mb-4 img-responsive afropic"
-              src={afro}
-              alt="headshot of Barbara Marbury"
-            />
           </div>
           <div class="col">
             <p class="lead">
