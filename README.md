@@ -18,7 +18,7 @@ This application is meant to be a haven for families who have a child recently d
 
 # Setup/Installation Requirements
 
-You can visit the site by clicking on this link! 
+You can visit the site by clicking on this link! https://www.breezereading.com/
 
 
 # Known Bugs
