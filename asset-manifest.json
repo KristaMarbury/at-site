@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba377c95.chunk.css",
-    "main.js": "/static/js/main.39293b8d.chunk.js",
-    "main.js.map": "/static/js/main.39293b8d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.06428deb.js",
-    "runtime-main.js.map": "/static/js/runtime-main.06428deb.js.map",
-    "static/js/2.779340da.chunk.js": "/static/js/2.779340da.chunk.js",
-    "static/js/2.779340da.chunk.js.map": "/static/js/2.779340da.chunk.js.map",
-    "static/js/3.933950dc.chunk.js": "/static/js/3.933950dc.chunk.js",
-    "static/js/3.933950dc.chunk.js.map": "/static/js/3.933950dc.chunk.js.map",
+    "main.css": "/static/css/main.44710840.chunk.css",
+    "main.js": "/static/js/main.67878dc5.chunk.js",
+    "main.js.map": "/static/js/main.67878dc5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4037cab9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4037cab9.js.map",
+    "static/js/2.d29f8a0a.chunk.js": "/static/js/2.d29f8a0a.chunk.js",
+    "static/js/2.d29f8a0a.chunk.js.map": "/static/js/2.d29f8a0a.chunk.js.map",
+    "static/js/3.dbf390eb.chunk.js": "/static/js/3.dbf390eb.chunk.js",
+    "static/js/3.dbf390eb.chunk.js.map": "/static/js/3.dbf390eb.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ba377c95.chunk.css.map": "/static/css/main.ba377c95.chunk.css.map",
-    "static/js/2.779340da.chunk.js.LICENSE.txt": "/static/js/2.779340da.chunk.js.LICENSE.txt",
+    "static/css/main.44710840.chunk.css.map": "/static/css/main.44710840.chunk.css.map",
+    "static/js/2.d29f8a0a.chunk.js.LICENSE.txt": "/static/js/2.d29f8a0a.chunk.js.LICENSE.txt",
     "static/media/DyslexiaKidPic.90c9a24c.png": "/static/media/DyslexiaKidPic.90c9a24c.png",
     "static/media/DyslexiaQuote.8b034f5c.jpeg": "/static/media/DyslexiaQuote.8b034f5c.jpeg",
     "static/media/momafro.59746bbc.jpeg": "/static/media/momafro.59746bbc.jpeg",
+    "static/media/momglasses.bb07344a.jpeg": "/static/media/momglasses.bb07344a.jpeg",
     "static/media/momquote1.bc1932e6.jpg": "/static/media/momquote1.bc1932e6.jpg",
     "static/media/nounbook.c0348027.png": "/static/media/nounbook.c0348027.png",
     "static/media/nounbrain.5a2d1b3a.png": "/static/media/nounbrain.5a2d1b3a.png",
+    "static/media/robertbrault.1b08d6f6.jpg": "/static/media/robertbrault.1b08d6f6.jpg",
     "static/media/victorhugo.713de1c0.jpg": "/static/media/victorhugo.713de1c0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.06428deb.js",
-    "static/js/2.779340da.chunk.js",
-    "static/css/main.ba377c95.chunk.css",
-    "static/js/main.39293b8d.chunk.js"
+    "static/js/runtime-main.4037cab9.js",
+    "static/js/2.d29f8a0a.chunk.js",
+    "static/css/main.44710840.chunk.css",
+    "static/js/main.67878dc5.chunk.js"
   ]
 }
