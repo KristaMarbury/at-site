@@ -4,6 +4,7 @@ import React from "react";
 const EducatorResources = () => {
   return (
     <main>
+      {/* separate these videos, have a description and explain why someone wants to see it. Have a link to encourage people to find my mom on youtube. */}
       <section class="container">
         <iframe
           width="560"

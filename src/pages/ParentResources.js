@@ -5,6 +5,7 @@ import brain from "./images/nounbrain.png";
 const ParentResources = () => {
   return (
     <main>
+      {/* columns instead of rows, spacing on the sides. Have another quote on this page. Have another image, to break up the text.  */}
       <section class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div class="col d-flex align-items start">
           <div class="feature col border rounded">

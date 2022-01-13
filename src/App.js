@@ -20,15 +20,16 @@ function App() {
           {/* Define routes to render different page components at different paths */}
           <Route exact path="/" component={Home} />
           {/* Define a route that will take in variable data */}
-          <Route exact path="/aboutme" component={About} />
+          <Route exact path="/about" component={About} />
           <Route
             exact
             path="/educatorresources"
             component={EducatorResources}
           />
+          {/* this is where i name the path to my pages */}
           <Route exact path="/parentresources" component={ParentResources} />
           <Route exact path="/faq" component={FAQ} />
-          <Route exact path="/whatclientssay" component={WhatClientsSay} />
+          <Route exact path="/testimonies" component={WhatClientsSay} />
         </div>
         <Footer />
       </div>

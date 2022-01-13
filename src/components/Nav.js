@@ -20,13 +20,14 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="navmenu">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link to="/aboutme" className="nav-link">
-                AboutMe
+              <Link to="/testimonies" className="nav-link">
+                Testimonies
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/educatorresources" className="nav-link">
                 EducatorResources
+                {/* put these resources together and have the tab open to some sub pages or have a hamburger */}
               </Link>
             </li>
             <li className="nav-item">
@@ -35,13 +36,13 @@ const Nav = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/faq" className="nav-link">
-                FAQ
+              <Link to="/about" className="nav-link">
+                About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/whatclientssay" className="nav-link">
-                WhatClientsSay
+              <Link to="/faq" className="nav-link">
+                FAQ
               </Link>
             </li>
           </ul>
