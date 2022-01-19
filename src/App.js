@@ -6,7 +6,7 @@ import About from "./pages/About";
 import EducatorResources from "./pages/EducatorResources";
 import FAQ from "./pages/FAQ";
 import ParentResources from "./pages/ParentResources";
-import Nav from "./components/Nav";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 // import { ApolloClient, ApolloProvider } from "@apollo/client";
 // import { Link } from "react-router-dom";
@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Nav />
+        <Navbar />
         <div>
           {/* Define routes to render different page components at different paths */}
           <Route exact path="/" component={Home} />
